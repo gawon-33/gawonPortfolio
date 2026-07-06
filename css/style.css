@@ -1,0 +1,1279 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.wrap{
+    width: 100%;
+}
+
+.main_wrap{
+    width: 100%;
+    height: 1080px;
+    background-image: url(/img/header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    width:100%;
+    min-height:100vh;
+    max-width:1680px;
+    margin:auto;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.logo{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo img{
+    width: 545px;
+    height: 335px;
+    object-fit: cover;
+    margin-top: 85px;
+}
+
+.scroll{
+    width: 100%;
+    height: 660px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 42px;
+}
+
+.scroll .scro{
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.4em;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+    opacity: 0;
+    animation: scrollFadeIn 1.2s ease forwards 2s;
+}
+
+.scroll .scro span{
+    display: block;
+    margin-top: 8px;
+    color: #ffffff;
+    animation: scrollBob 2s ease-in-out infinite;
+}
+
+@keyframes scrollFadeIn{
+    to{ opacity: 1; }
+}
+
+@keyframes scrollBob{
+    0%, 100%{ transform: translateY(0); }
+    50%{ transform: translateY(8px); }
+}
+
+.baner_wrap{
+    width: 100%;
+    height: 670px;
+    background-image: url(/img/배너.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.baner{
+    width: 100%;
+    height: 670px;
+    max-width: 1680px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banertext{
+    font-family: Bebas Neue;
+    font-size: 25px;
+    color: #D3D3D3;
+    font-weight: 100;
+    text-align: center;
+}
+
+.banertext b{
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.story_wrap{
+    width: 100%;
+    height: 810px;
+    background-color: #060A0F;
+    object-fit: cover;
+    object-fit: contain;
+}
+
+.story{
+    width: 100%;
+    height: 810px;
+    max-width: 1680px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.storytext{
+    width: 460px;
+}
+
+.storyt{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Bebas Neue;
+    color: #D3D3D3;
+    margin-bottom: 50px;
+}
+
+.stor{
+    font-size: 30px;
+    font-family: Anton SC;
+    font-weight: 200;
+    color: #D3D3D3;
+}
+
+.stor b{
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.storyimg{
+    width: 1220px;
+    height: 810px;
+    margin-right:-120px;
+    object-fit: cover;
+}
+
+.mono_wrap{
+    width: 100%;
+    height: 890px;
+    background-image: url(/img/monoback.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mono{
+    width: 100%;
+    height: 890px;
+    max-width: 1680px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.monotex{
+    font-size: 25px;
+    font-family: Antonio;
+    font-weight: 250;
+    margin-bottom: 310px;
+    color: #D3D3D3;
+}
+
+.mononame{
+    font-family: Anton SC;
+    font-size: 200px;
+    font-weight: 1000;
+    letter-spacing: -10px;
+    color: #B19369;
+    margin-bottom: -30px;
+}
+
+.monot{
+    font-size: 30px;
+    font-family: Anton SC;
+    font-weight: 200;
+    color: #D3D3D3;
+}
+
+.monot b{
+    font-size: 500;
+    color: #ffffff;
+}
+
+.monoimg{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.monoimg img{
+    width: 468px;
+    height: 775px;
+    object-fit: cover;
+}
+
+.mon_wrap{
+    width: 100%;
+    height: 480px;
+    background: #060A0F;
+}
+
+.mon{
+    width: 100%;
+    max-width: 1680px;
+    height: 100%;
+    margin: 0 auto;
+
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monn{
+    text-align: center;
+    font-family: Bebas Neue;
+    color: #D3D3D3;
+    font-size: 50px;
+}
+
+.six_wrap{
+    width: 100%;
+    height: 890px;
+    background-image: url(/img/sixback.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.six{
+    width: 100%;
+    height: 890px;
+    max-width: 1680px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sixtext{
+    width: 980px;
+    text-align: right;  
+}
+
+.sixtex{
+    font-size: 25px;
+    font-family: Antonio;
+    font-weight: 250;
+
+    color: #D3D3D3;
+    text-align: left;
+}
+
+.sixname{
+    font-family: Anton SC;
+    font-size: 200px;
+    font-weight: 1000;
+    letter-spacing: -10px;
+    color: #B19369;
+    margin-bottom: -30px;
+    margin-top: 310px;
+}
+
+.sixt{
+    font-size: 30px;
+    font-family: Anton SC;
+    font-weight: 200;
+    color: #D3D3D3;
+}
+
+.sixt b{
+    font-size: 500;
+    color: #ffffff;
+}
+
+.siximg{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.siximg img{
+    width: 295px;
+    height: 840px;
+    object-fit: cover;
+}
+
+.si_wrap{
+    width: 100%;
+    height: 480px;
+    background-color: #060A0F;
+    background-size: contain;
+    background-size: cover;
+}
+
+.si{
+    width: 100%;
+    height: 480px;
+    max-width: 1680px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sii{
+    text-align: center;
+    align-content: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #D3D3D3;
+    font-family: Bebas Neue;
+}
+
+.sii span{
+    font-weight: 800;
+    color: #5B0E0E;
+    font-family: Bebas Neue;
+}
+
+.bane_wrap{
+    width: 100%;
+    height: 810px;
+    background-image: url(/img/배너2.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bane{
+    width: 100%;
+    height: 810px;
+    margin: 0 auto;
+    max-width: 1680px;
+}
+
+.bann_wrap{
+    width: 100%;
+    height: 340px;
+    background-color: #060A0F;
+    background-size: contain;
+    background-size: cover;
+}
+
+.bann{
+    width: 100%;
+    height: 340px;
+    margin: 0 auto;
+    max-width: 1680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bao{
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 50px;
+    color: #D3D3D3;
+
+}
+
+.hunter_wrap{
+    width: 100%;
+    height: 890px;
+    background-image: url(/img/hunterback.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hunter{
+    width: 100%;
+    height: 890x;
+    max-width: 1680px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.huntertext{
+    width: 980px;
+    text-align: right;  
+    margin-left: auto;
+}
+
+.huntertex{
+    font-size: 25px;
+    font-family: Antonio;
+    font-weight: 250;
+
+    color: #D3D3D3;
+    text-align: left;
+}
+
+.huntername{
+    font-family: Anton SC;
+    font-size: 200px;
+    font-weight: 1000;
+    letter-spacing: -10px;
+    color: #45552C;
+    margin-bottom: -30px;
+    margin-top: 310px;
+}
+
+.huntert{
+    font-size: 30px;
+    font-family: Anton SC;
+    font-weight: 200;
+    color: #D3D3D3;
+}
+
+.sihuntertxt b{
+    font-size: 500;
+    color: #ffffff;
+}
+
+.hunterimg{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.hunterimg img{
+    width: 660px;
+    height: 905px;
+    object-fit: cover;
+}
+
+.hun_wrap{
+    width: 100%;
+    height: 890px;
+    background-image: url(/img/배너3.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hun{
+    width: 100%;
+    height: 890px;
+    max-width: 1680px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.huntext{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.hunt{
+    font-family: Antonio;
+    color: #D3D3D3;
+    font-size: 25px;
+    text-align: right;
+}
+
+.hunt b{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.teacher_wrap{
+    width: 100%;
+    height: 890px;
+    background-image: url(/img/teacherback.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.teacher{
+    width: 100%;
+    height: 890px;
+    max-width: 1680px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.teachertex{
+    font-size: 25px;
+    font-family: Antonio;
+    font-weight: 250;
+    margin-bottom: 310px;
+    color: #D3D3D3;
+}
+
+.teachername{
+    font-family: Anton SC;
+    font-size: 200px;
+    font-weight: 1000;
+    letter-spacing: -10px;
+    color: #797352;
+    margin-bottom: -30px;
+}
+
+.teachert{
+    font-size: 30px;
+    font-family: Anton SC;
+    font-weight: 200;
+    color: #D3D3D3;
+}
+
+.teachert b{
+    font-size: 500;
+    color: #ffffff;
+}
+
+.teacherimg{
+    margin-top: 0px;
+    margin-left: 300px;
+}
+
+.teacherimg img{
+    width: 436px;
+    height: 900px;
+    object-fit: cover;
+}
+
+.teach_wrap{
+    width: 100%;
+    height: 890px;
+    background-image: url(/img/teachimg.png);
+    background-size: contain;
+    background-size: cover;
+}
+
+.teach{
+    width: 100%;
+    height: 890px;
+    max-width: 1680px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.teachtext{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.tea{
+    font-family: Antonio;
+    color: #D3D3D3;
+    font-size: 25px;
+    text-align: right;
+}
+
+.tea b{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.hospital_wrap{
+    width: 100%;
+    height: 890px;
+    background-image: url(/img/병원back.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+
+.hospital{
+    width: 100%;
+    height: 890px;
+    max-width: 1680px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.hospitaltext{
+    width: 1100px;
+    text-align: right;  
+    margin-left: auto;
+}
+
+.hospitaltex{
+    font-size: 25px;
+    font-family: Antonio;
+    font-weight: 250;
+    color: #D3D3D3;
+    text-align: left;
+}
+
+.hospitalname{
+    font-family: Anton SC;
+    font-size: 200px;
+    font-weight: 1000;
+    letter-spacing: -10px;
+    color: #797352;
+    margin-bottom: -30px;
+    margin-top: 380px;
+}
+
+.hospitalt{
+    font-size: 30px;
+    font-family: Anton SC;
+    font-weight: 200;
+    color: #D3D3D3;
+}
+
+.hospitalt b{
+    font-size: 500;
+    color: #ffffff;
+}
+
+.hospitalimg{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 0px;
+}
+
+.hospitalimg img{
+    width: 450px;
+    object-fit: cover;
+}
+
+.hosp_wrap{
+    width: 100%;
+    height: 890px;
+    background-image: url(/img/hospital.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+
+.hosp{
+    width: 100%;
+    height: 890px;
+    max-width: 1680px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.hosptext{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.hos{
+    font-family: Antonio;
+    color: #D3D3D3;
+    font-size: 25px;
+    text-align: right;
+}
+
+.hos b{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.thinman_wrap{
+    width: 100%;
+    height: 890px;
+    background-image: url(/img/thinman.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.thinman{
+    width: 100%;
+    height: 890px;
+    max-width: 1680px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.thinmantex{
+    font-size: 25px;
+    font-family: Antonio;
+    font-weight: 250;
+    margin-bottom: 280px;
+    color: #D3D3D3;
+}
+
+.thinmanname{
+    font-family: Anton SC;
+    font-size: 200px;
+    font-weight: 1000;
+    letter-spacing: -10px;
+    color: #3D6E8F;
+    margin-bottom: 60px;
+    line-height: 0.7;
+}
+
+.thinmant{
+    font-size: 30px;
+    font-family: Anton SC;
+    font-weight: 200;
+    color: #D3D3D3;
+}
+
+.thinmant b{
+    font-size: 500;
+    color: #ffffff;
+}
+
+.thinmanimg{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.thinmanimg img{
+    width: 248px;
+    height: 875px;
+    object-fit: cover;
+}
+
+.thin_wrap{
+    width: 100%;
+    height: 890px;
+    background-image: url(/img/city.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+
+.thin{
+    width: 100%;
+    height: 890px;
+    margin: 0 auto;
+    max-width: 1680px;
+    display: flex;
+    position: relative;
+}
+
+.thintext{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.thi{
+    font-family: Antonio;
+    color: #D3D3D3;
+    font-size: 25px;
+    text-align: right;
+}
+
+.thi b{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.run_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.run_text span{
+    position: relative;
+    display: inline-block;
+
+    font-family: Antonio;
+    font-size: 200px;
+    font-weight: 900;
+    color:#5B0E0E;
+    letter-spacing:-20px;
+
+    animation: shake .08s infinite alternate;
+}
+
+.run_text span::before,
+.run_text span::after{
+    content: attr(data-text);
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+.run_text span::before{
+    color:#8b1111;
+    transform:translate(-3px,-1px);
+    opacity:.65;
+    filter:blur(1px);
+
+    animation: glitch1 .2s infinite;
+}
+
+.run_text span::after{
+    color:#a91919;
+    transform:translate(3px,1px);
+    opacity:.55;
+    filter:blur(2px);
+
+    animation: glitch2 .15s infinite;
+}
+
+@keyframes shake{
+
+    0%{
+        transform:translate(0);
+    }
+
+    25%{
+        transform:translate(-2px,1px);
+    }
+
+    50%{
+        transform:translate(2px,-1px);
+    }
+
+    75%{
+        transform:translate(-1px,-2px);
+    }
+
+    100%{
+        transform:translate(2px,2px);
+    }
+
+}
+
+@keyframes glitch1{
+
+    0%{
+        clip-path: inset(0 0 70% 0);
+    }
+
+    20%{
+        clip-path: inset(20% 0 40% 0);
+    }
+
+    40%{
+        clip-path: inset(50% 0 10% 0);
+    }
+
+    60%{
+        clip-path: inset(30% 0 45% 0);
+    }
+
+    80%{
+        clip-path: inset(65% 0 5% 0);
+    }
+
+    100%{
+        clip-path: inset(0 0 70% 0);
+    }
+
+}
+
+@keyframes glitch2{
+
+    0%{
+        clip-path: inset(70% 0 0 0);
+    }
+
+    20%{
+        clip-path: inset(45% 0 30% 0);
+    }
+
+    40%{
+        clip-path: inset(15% 0 60% 0);
+    }
+
+    60%{
+        clip-path: inset(35% 0 25% 0);
+    }
+
+    80%{
+        clip-path: inset(5% 0 75% 0);
+    }
+
+    100%{
+        clip-path: inset(70% 0 0 0);
+    }
+
+}
+
+.galry_wrap{
+    width: 100%;
+    height: 900px;
+    background-color: #060A0F;
+    background-size: contain;
+    background-size: cover;
+}
+
+.galry{
+    width: 100%;
+    height: 900px;
+    max-width: 1680px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.gal{
+    font-size: 25px;
+    font-family: Antonio;
+    font-weight: 250;
+    margin-bottom: 280px;
+    color: #D3D3D3;
+}
+
+.galry_wrap{
+    width:100%;
+    background:#060A0F;
+    padding:120px 0;
+}
+
+.galry{
+    width:100%;
+    max-width:1680px;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+}
+
+.gal{
+    font-size:25px;
+    font-family:Antonio;
+    color:#D3D3D3;
+    margin-bottom:300px;
+}
+
+.gallery_slider{
+    width:100%;
+    overflow-x:auto;
+    overflow-y:hidden;
+}
+
+.gallery_slider::-webkit-scrollbar{
+    display:none;
+}
+
+.gallery_track{
+    display:flex;
+    gap:47px;
+    width:max-content;
+}
+
+.gallery_item{
+    flex-shrink:0;
+    width:770px;
+    height:435px;
+    overflow:hidden;
+}
+
+.gallery_item img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+    transition:.5s;
+}
+
+.gallery_item:hover img{
+    transform:scale(1.05);
+}
+
+.trailer_wrap{
+    width:100%;
+    background:#060A0F;
+    padding:120px 0;
+}
+
+.trailer{
+    width:100%;
+    max-width:1680px;
+    margin:0 auto;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.trai{
+    font-size:25px;
+    font-family:Antonio;
+    color:#D3D3D3;
+    margin-bottom:80px;
+}
+
+.video_box{
+    width:90%;
+    max-width:1480px;
+    aspect-ratio:16/9;
+    margin:0 auto;
+}
+
+.video_box iframe{
+    width:100%;
+    height:100%;
+}
+
+.footer_wrap{
+    width: 100%;
+    height: 1000px;
+    background-image: url(/img/footer.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+
+footer{
+    width: 100%;
+    height: 1000px;
+    max-width: 1680px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.flogo{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.footertext{
+    position:absolute;
+    bottom:280px;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footertext p{
+    color:#ddd;
+    font-family:Antonio;
+    font-size:20px;
+    letter-spacing:4px;
+    font-weight:600;
+
+    text-shadow:
+        2px 0 rgba(255,0,70,.7),
+       -2px 0 rgba(0,180,255,.7),
+        0 0 6px rgba(255,255,255,.2);
+}
+
+.btn{
+    width: 225px;
+    height: 50px;
+    font-family:Antonio;
+    font-size: 24px;
+    margin: 0 auto;
+    margin-top: 450px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn:hover{
+    border-color: #ff5100;
+    color: #ff5100;
+}
+
+
+/* ==========================================================
+   RESPONSIVE (MOBILE / TABLET)
+   PC 레이아웃은 위 코드 그대로 유지되고,
+   아래 미디어쿼리만 화면이 좁을 때 덮어씁니다.
+   ========================================================== */
+
+@media (max-width: 900px){
+
+    /* 공통: 모든 px 고정 높이 섹션을 내용에 맞게 자동 높이로 */
+    .main_wrap, .baner_wrap, .story_wrap, .mono_wrap, .mon_wrap,
+    .six_wrap, .si_wrap, .bane_wrap, .bann_wrap,
+    .hunter_wrap, .hun_wrap, .teacher_wrap, .teach_wrap,
+    .hospital_wrap, .hosp_wrap, .thinman_wrap, .thin_wrap,
+    .galry_wrap, .trailer_wrap, .footer_wrap,
+    header, .story, .mono, .mon, .six, .si, .bane, .bann,
+    .hunter, .hun, .teacher, .teach, .hospital, .hosp,
+    .thinman, .thin, .galry, .trailer, footer{
+        height:auto;
+        min-height:auto;
+    }
+
+    /* -------- 헤더 -------- */
+    .main_wrap{ min-height:100vh; }
+    header{ min-height:100vh; }
+    .logo img{
+        width:60vw;
+        max-width:320px;
+        height:auto;
+        margin-top:60px;
+    }
+    .scroll{ padding:32px 0; }
+
+    /* -------- 배너 (THE WORLD HAS BECOME...) -------- */
+    .baner_wrap{ min-height:60vh; }
+    .baner{ padding:60px 24px; }
+    .banertext{ font-size:18px; line-height:1.7; }
+
+    /* -------- STORY -------- */
+    .story{
+        flex-direction:column;
+        padding:70px 24px;
+        gap:32px;
+    }
+    .storytext{ width:100%; }
+    .storyt{ font-size:30px; margin-bottom:24px; }
+    .stor{ font-size:16px; line-height:1.6; }
+    .storyimg{ width:100%; margin-right:0; }
+    .storyimg img{ width:100%; height:auto; display:block; }
+
+    /* -------- MONO -------- */
+    .mono{
+        flex-direction:column;
+        padding:70px 24px;
+        align-items:center;
+        text-align:center;
+    }
+    .monotex{ margin-bottom:20px; font-size:14px; }
+    .mononame{ font-size:22vw; letter-spacing:-2px; margin-bottom:16px; }
+    .monot{ font-size:15px; line-height:1.6; }
+    .monoimg{ margin:24px 0 0; }
+    .monoimg img{ width:56vw; max-width:280px; height:auto; }
+
+    .mon{ padding:60px 24px; }
+    .monn{ font-size:26px; line-height:1.4; }
+
+    /* -------- SIX -------- */
+    .six{
+        flex-direction:column-reverse;
+        padding:70px 24px;
+        align-items:center;
+        text-align:center;
+    }
+    .sixtext{ width:100%; text-align:center; }
+    .sixtex{ text-align:center; font-size:14px; }
+    .sixname{ font-size:22vw; margin:16px 0; }
+    .sixt{ font-size:15px; line-height:1.6; }
+    .siximg{ position:static; margin:0 0 24px; display:flex; justify-content:center; }
+    .siximg img{ width:42vw; max-width:200px; height:auto; }
+
+    .si{ padding:60px 24px; }
+    .sii{ font-size:26px; line-height:1.4; }
+
+    /* -------- 배너2 / KEEP RUN -------- */
+    .bane_wrap{ min-height:50vh; }
+    .bann{ padding:40px 24px; }
+    .bao{ font-size:26px; }
+
+    /* -------- HUNTER -------- */
+    .hunter{
+        flex-direction:column;
+        padding:70px 24px;
+        align-items:center;
+        text-align:center;
+    }
+    .huntertext{ width:100%; text-align:center; margin-left:0; }
+    .huntertex{ text-align:center; font-size:14px; }
+    .huntername{ font-size:20vw; margin:16px 0; }
+    .huntert{ font-size:15px; line-height:1.6; }
+    .hunterimg{ position:static; margin:24px 0 0; display:flex; justify-content:center; }
+    .hunterimg img{ width:58vw; max-width:280px; height:auto; }
+
+    .hun_wrap{ min-height:50vh; }
+    .hun{ padding:40px 24px; }
+    .huntext{ position:static; text-align:center; padding-top:0; }
+    .hunt{ text-align:center; font-size:14px; }
+
+    /* -------- TEACHER -------- */
+    .teacher{
+        flex-direction:column;
+        padding:70px 24px;
+        align-items:center;
+        text-align:center;
+    }
+    .teachertex{ margin-bottom:16px; font-size:14px; }
+    .teachername{ font-size:20vw; margin-bottom:16px; }
+    .teachert{ font-size:15px; line-height:1.6; }
+    .teacherimg{ margin:24px 0 0; display:flex; justify-content:center; }
+    .teacherimg img{ width:52vw; max-width:260px; height:auto; }
+
+    .teach_wrap{ min-height:50vh; }
+    .teach{ padding:40px 24px; }
+    .teachtext{ position:static; text-align:center; }
+    .tea{ text-align:center; font-size:14px; }
+
+    /* -------- HOSPITAL -------- */
+    .hospital{
+        flex-direction:column;
+        padding:70px 24px;
+        align-items:center;
+        text-align:center;
+    }
+    .hospitaltext{ width:100%; text-align:center; margin-left:0; }
+    .hospitaltex{ text-align:center; font-size:14px; }
+    .hospitalname{ font-size:18vw; margin:16px 0; }
+    .hospitalt{ font-size:15px; line-height:1.6; }
+    .hospitalimg{ position:static; margin:24px 0 0; display:flex; justify-content:center; }
+    .hospitalimg img{ width:52vw; max-width:260px; height:auto; }
+
+    .hosp_wrap{ min-height:50vh; }
+    .hosp{ padding:40px 24px; }
+    .hosptext{ position:static; text-align:center; }
+    .hos{ text-align:center; font-size:14px; }
+
+    /* -------- THIN MAN -------- */
+    .thinman{
+        flex-direction:column;
+        padding:70px 24px;
+        align-items:center;
+        text-align:center;
+    }
+    .thinmantex{ margin-bottom:16px; font-size:14px; }
+    .thinmanname{ font-size:20vw; margin-bottom:16px; line-height:0.95; }
+    .thinmant{ font-size:15px; line-height:1.6; }
+    .thinmanimg{ margin:24px 0 0; display:flex; justify-content:center; }
+    .thinmanimg img{ width:38vw; max-width:180px; height:auto; }
+
+    .thin_wrap{ min-height:60vh; }
+    .thin{ padding:40px 24px; }
+    .run_text span{ font-size:22vw; letter-spacing:-6px; }
+    .thintext{ position:static; text-align:center; padding-top:32px; }
+    .thi{ text-align:center; font-size:14px; }
+
+    /* -------- GALLERY -------- */
+    .galry_wrap{ padding:70px 0; }
+    .gal{ margin-bottom:40px; padding:0 24px; font-size:14px; }
+    .gallery_item{
+        width:82vw;
+        height:calc(82vw * 435 / 770);
+    }
+    .gallery_track{ gap:20px; padding:0 24px; }
+
+    /* -------- TRAILER -------- */
+    .trailer_wrap{ padding:70px 0; }
+    .trai{ padding:0 24px; margin-bottom:28px; font-size:14px; }
+    .video_box{ width:92%; }
+
+    /* -------- FOOTER -------- */
+    .footer_wrap{ min-height:auto; padding:70px 0 60px; }
+    footer{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .flogo{ padding-top:0; }
+    .flogo img{ width:42vw; max-width:220px; height:auto; }
+    .footertext{
+        position:static;
+        flex-direction:column;
+        gap:14px;
+        margin:36px 0 28px;
+        text-align:center;
+    }
+    .footertext p{ font-size:15px; letter-spacing:2px; }
+    .btn{ margin-top:0; }
+}
+
+@media (max-width: 420px){
+    .mononame,.sixname{ font-size:24vw; }
+    .huntername,.teachername{ font-size:22vw; }
+    .hospitalname{ font-size:20vw; }
+    .thinmanname{ font-size:22vw; }
+    .run_text span{ font-size:26vw; }
+    .storyt{ font-size:26px; }
+    .monn,.sii,.bao{ font-size:22px; }
+}
+
+
