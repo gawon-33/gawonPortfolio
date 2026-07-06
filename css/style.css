@@ -13,7 +13,7 @@ body{
 .main_wrap{
     width: 100%;
     height: 1080px;
-    background-image: url(/img/header.png);
+    background-image: url(../images/header.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@ header{
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    padding-bottom: 42px;
+    padding-bottom: px;
 }
 
 .scroll .scro{
@@ -81,7 +81,7 @@ header{
 .baner_wrap{
     width: 100%;
     height: 670px;
-    background-image: url(/img/배너.jpg);
+    background-image: url(../images/배너.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -161,7 +161,7 @@ header{
 .mono_wrap{
     width: 100%;
     height: 890px;
-    background-image: url(/img/monoback.jpg);
+    background-image: url(../images/monoback.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -189,13 +189,14 @@ header{
     font-weight: 1000;
     letter-spacing: -10px;
     color: #B19369;
-    margin-bottom: -30px;
+    margin-bottom: 30px;
 }
 
 .monot{
     font-size: 30px;
     font-family: Anton SC;
     font-weight: 200;
+    line-height: 40px;
     color: #D3D3D3;
 }
 
@@ -243,7 +244,7 @@ header{
 .six_wrap{
     width: 100%;
     height: 890px;
-    background-image: url(/img/sixback.jpg);
+    background-image: url(../images/sixback.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -279,7 +280,7 @@ header{
     font-weight: 1000;
     letter-spacing: -10px;
     color: #B19369;
-    margin-bottom: -30px;
+    margin-bottom: 30px;
     margin-top: 310px;
 }
 
@@ -288,6 +289,7 @@ header{
     font-family: Anton SC;
     font-weight: 200;
     color: #D3D3D3;
+    line-height: 40px;
 }
 
 .sixt b{
@@ -342,7 +344,7 @@ header{
 .bane_wrap{
     width: 100%;
     height: 810px;
-    background-image: url(/img/배너2.jpg);
+    background-image: url(../images/배너2.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -384,7 +386,7 @@ header{
 .hunter_wrap{
     width: 100%;
     height: 890px;
-    background-image: url(/img/hunterback.jpg);
+    background-image: url(../images/hunterback.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -419,7 +421,7 @@ header{
     font-weight: 1000;
     letter-spacing: -10px;
     color: #45552C;
-    margin-bottom: -30px;
+    margin-bottom: 30px;
     margin-top: 310px;
 }
 
@@ -428,9 +430,10 @@ header{
     font-family: Anton SC;
     font-weight: 200;
     color: #D3D3D3;
+    line-height: 40px;
 }
 
-.sihuntertxt b{
+.huntert b{
     font-size: 500;
     color: #ffffff;
 }
@@ -450,7 +453,7 @@ header{
 .hun_wrap{
     width: 100%;
     height: 890px;
-    background-image: url(/img/배너3.jpg);
+    background-image: url(../images/배너3.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -485,7 +488,7 @@ header{
 .teacher_wrap{
     width: 100%;
     height: 890px;
-    background-image: url(/img/teacherback.jpg);
+    background-image: url(../images/teacherback.jpg);
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -513,7 +516,7 @@ header{
     font-weight: 1000;
     letter-spacing: -10px;
     color: #797352;
-    margin-bottom: -30px;
+    margin-bottom: 30px;
 }
 
 .teachert{
@@ -542,7 +545,7 @@ header{
 .teach_wrap{
     width: 100%;
     height: 890px;
-    background-image: url(/img/teachimg.png);
+    background-image: url(../images/teachimg.png);
     background-size: contain;
     background-size: cover;
 }
@@ -577,7 +580,7 @@ header{
 .hospital_wrap{
     width: 100%;
     height: 890px;
-    background-image: url(/img/병원back.jpg);
+    background-image: url(../images/병원back.jpg);
     background-size: contain;
     background-size: cover;
 }
@@ -610,7 +613,7 @@ header{
     font-weight: 1000;
     letter-spacing: -10px;
     color: #797352;
-    margin-bottom: -30px;
+    margin-bottom: 30px;
     margin-top: 380px;
 }
 
@@ -619,6 +622,7 @@ header{
     font-family: Anton SC;
     font-weight: 200;
     color: #D3D3D3;
+    line-height: 40px;
 }
 
 .hospitalt b{
@@ -640,7 +644,7 @@ header{
 .hosp_wrap{
     width: 100%;
     height: 890px;
-    background-image: url(/img/hospital.jpg);
+    background-image: url(../images/hospital.jpg);
     background-size: contain;
     background-size: cover;
 }
@@ -675,7 +679,7 @@ header{
 .thinman_wrap{
     width: 100%;
     height: 890px;
-    background-image: url(/img/thinman.jpg);
+    background-image: url(../images/thinman.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -711,6 +715,7 @@ header{
     font-size: 30px;
     font-family: Anton SC;
     font-weight: 200;
+    line-height: 40px;
     color: #D3D3D3;
 }
 
@@ -733,7 +738,7 @@ header{
 .thin_wrap{
     width: 100%;
     height: 890px;
-    background-image: url(/img/city.jpg);
+    background-image: url(../images/city.jpg);
     background-size: contain;
     background-size: cover;
 }
@@ -931,6 +936,7 @@ header{
 
 .gal{
     font-size:25px;
+    font-weight: 400;
     font-family:Antonio;
     color:#D3D3D3;
     margin-bottom:300px;
@@ -981,7 +987,6 @@ header{
     width:100%;
     max-width:1680px;
     margin:0 auto;
-
     display:flex;
     flex-direction:column;
 }
@@ -1008,7 +1013,7 @@ header{
 .footer_wrap{
     width: 100%;
     height: 1000px;
-    background-image: url(/img/footer.jpg);
+    background-image: url(../images/footer.jpg);
     background-size: contain;
     background-size: cover;
 }
@@ -1053,6 +1058,8 @@ footer{
 .btn{
     width: 225px;
     height: 50px;
+    color: #D3D3D3;
+    border-radius: 2px #d3d3d3;
     font-family:Antonio;
     font-size: 24px;
     margin: 0 auto;
@@ -1068,6 +1075,13 @@ footer{
     border-color: #ff5100;
     color: #ff5100;
 }
+
+
+/* ==========================================================
+   RESPONSIVE (MOBILE / TABLET)
+   PC 레이아웃은 위 코드 그대로 유지되고,
+   아래 미디어쿼리만 화면이 좁을 때 덮어씁니다.
+   ========================================================== */
 
 
 /* ==========================================================
@@ -1116,40 +1130,99 @@ footer{
     .storytext{ width:100%; }
     .storyt{ font-size:30px; margin-bottom:24px; }
     .stor{ font-size:16px; line-height:1.6; }
-    .storyimg{ width:100%; margin-right:0; }
+    .storyimg{
+        width:100%;
+        height:auto;          /* FIX: 데스크탑 고정 810px가 남아 이미지 아래 빈 공간이 크게 생기던 문제 수정 */
+        margin-right:0;
+    }
     .storyimg img{ width:100%; height:auto; display:block; }
 
-    /* -------- MONO -------- */
-    .mono{
-        flex-direction:column;
-        padding:70px 24px;
-        align-items:center;
-        text-align:center;
-    }
-    .monotex{ margin-bottom:20px; font-size:14px; }
-    .mononame{ font-size:22vw; letter-spacing:-2px; margin-bottom:16px; }
-    .monot{ font-size:15px; line-height:1.6; }
-    .monoimg{ margin:24px 0 0; }
-    .monoimg img{ width:56vw; max-width:280px; height:auto; }
+    /* ==========================================================
+       캐릭터 소개 카드 (MONO / SIX / HUNTER / TEACHER / HOSPITAL / THINMAN)
+       - 이미지 + 캡션 + 이름 + 설명을 하나의 카드처럼 묶어서
+         "따로 노는" 느낌 없이 한 화면에 자연스럽게 모여 보이도록 통일.
+       - 순서: 이미지 → 캡션 → 이름 → 설명 (6개 캐릭터 전부 동일한 순서)
+       ========================================================== */
 
-    .mon{ padding:60px 24px; }
+    .mono, .six, .hunter, .teacher, .hospital, .thinman{
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-start;
+        text-align:center;
+        padding:64px 24px;
+        gap:22px;
+    }
+
+    /* 이미지는 항상 카드 맨 위로 */
+    .monoimg, .siximg, .hunterimg, .teacherimg, .hospitalimg, .thinmanimg{
+        position:static;
+        order:-2;
+        margin:0;
+        display:flex;
+        justify-content:center;
+        width:100%;
+    }
+
+    .monoimg img, .siximg img, .hunterimg img,
+    .teacherimg img, .hospitalimg img, .thinmanimg img{
+        width:auto;
+        height:56vw;
+        max-height:320px;
+        object-fit:cover;
+        border-radius:4px;
+    }
+
+    /* 캡션+이름+설명을 감싸는 텍스트 블록: 카드처럼 하나로 묶어주는 배경 */
+    .monotext, .sixtext, .huntertext, .teachertext, .hospitaltext, .thinmantext{
+        width:100%;
+        max-width:480px;
+        margin:0;
+        text-align:center;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:12px;
+        background:rgba(6,10,15,0.45);
+        backdrop-filter:blur(2px);
+        border-radius:12px;
+        padding:28px 20px;
+    }
+
+    /* 텍스트 블록 밖에 캡션이 따로 떨어져 있던 SIX/HUNTER/HOSPITAL:
+       같은 카드 안으로 순서 지정 */
+    .sixtex, .huntertex, .hospitaltex{
+        order:-1;
+        width:100%;
+        max-width:480px;
+        margin:0 0 -4px;
+        text-align:center;
+        font-size:13px;
+        letter-spacing:0.2em;
+    }
+
+    .monotex, .teachertex, .thinmantex{
+        font-size:13px;
+        letter-spacing:0.2em;
+        margin:0;
+    }
+
+    .mononame, .sixname, .huntername, .teachername, .hospitalname, .thinmanname{
+        font-size:clamp(52px, 18vw, 96px);
+        letter-spacing:-2px;
+        line-height:0.95;
+        margin:0;
+    }
+
+    .monot, .sixt, .huntert, .teachert, .hospitalt, .thinmant{
+        font-size:15px;
+        line-height:1.6;
+        margin:0;
+    }
+
+    .mon{ padding:56px 24px; }
     .monn{ font-size:26px; line-height:1.4; }
 
-    /* -------- SIX -------- */
-    .six{
-        flex-direction:column-reverse;
-        padding:70px 24px;
-        align-items:center;
-        text-align:center;
-    }
-    .sixtext{ width:100%; text-align:center; }
-    .sixtex{ text-align:center; font-size:14px; }
-    .sixname{ font-size:22vw; margin:16px 0; }
-    .sixt{ font-size:15px; line-height:1.6; }
-    .siximg{ position:static; margin:0 0 24px; display:flex; justify-content:center; }
-    .siximg img{ width:42vw; max-width:200px; height:auto; }
-
-    .si{ padding:60px 24px; }
+    .si{ padding:56px 24px; }
     .sii{ font-size:26px; line-height:1.4; }
 
     /* -------- 배너2 / KEEP RUN -------- */
@@ -1157,74 +1230,11 @@ footer{
     .bann{ padding:40px 24px; }
     .bao{ font-size:26px; }
 
-    /* -------- HUNTER -------- */
-    .hunter{
-        flex-direction:column;
-        padding:70px 24px;
-        align-items:center;
-        text-align:center;
-    }
-    .huntertext{ width:100%; text-align:center; margin-left:0; }
-    .huntertex{ text-align:center; font-size:14px; }
-    .huntername{ font-size:20vw; margin:16px 0; }
-    .huntert{ font-size:15px; line-height:1.6; }
-    .hunterimg{ position:static; margin:24px 0 0; display:flex; justify-content:center; }
-    .hunterimg img{ width:58vw; max-width:280px; height:auto; }
-
-    .hun_wrap{ min-height:50vh; }
-    .hun{ padding:40px 24px; }
-    .huntext{ position:static; text-align:center; padding-top:0; }
-    .hunt{ text-align:center; font-size:14px; }
-
-    /* -------- TEACHER -------- */
-    .teacher{
-        flex-direction:column;
-        padding:70px 24px;
-        align-items:center;
-        text-align:center;
-    }
-    .teachertex{ margin-bottom:16px; font-size:14px; }
-    .teachername{ font-size:20vw; margin-bottom:16px; }
-    .teachert{ font-size:15px; line-height:1.6; }
-    .teacherimg{ margin:24px 0 0; display:flex; justify-content:center; }
-    .teacherimg img{ width:52vw; max-width:260px; height:auto; }
-
-    .teach_wrap{ min-height:50vh; }
-    .teach{ padding:40px 24px; }
-    .teachtext{ position:static; text-align:center; }
-    .tea{ text-align:center; font-size:14px; }
-
-    /* -------- HOSPITAL -------- */
-    .hospital{
-        flex-direction:column;
-        padding:70px 24px;
-        align-items:center;
-        text-align:center;
-    }
-    .hospitaltext{ width:100%; text-align:center; margin-left:0; }
-    .hospitaltex{ text-align:center; font-size:14px; }
-    .hospitalname{ font-size:18vw; margin:16px 0; }
-    .hospitalt{ font-size:15px; line-height:1.6; }
-    .hospitalimg{ position:static; margin:24px 0 0; display:flex; justify-content:center; }
-    .hospitalimg img{ width:52vw; max-width:260px; height:auto; }
-
-    .hosp_wrap{ min-height:50vh; }
-    .hosp{ padding:40px 24px; }
-    .hosptext{ position:static; text-align:center; }
-    .hos{ text-align:center; font-size:14px; }
-
-    /* -------- THIN MAN -------- */
-    .thinman{
-        flex-direction:column;
-        padding:70px 24px;
-        align-items:center;
-        text-align:center;
-    }
-    .thinmantex{ margin-bottom:16px; font-size:14px; }
-    .thinmanname{ font-size:20vw; margin-bottom:16px; line-height:0.95; }
-    .thinmant{ font-size:15px; line-height:1.6; }
-    .thinmanimg{ margin:24px 0 0; display:flex; justify-content:center; }
-    .thinmanimg img{ width:38vw; max-width:180px; height:auto; }
+    /* -------- 챕터 배너 (FOREST / SCHOOL / HOSPITAL / THE PALE CITY) -------- */
+    .hun_wrap, .teach_wrap, .hosp_wrap{ min-height:50vh; }
+    .hun, .teach, .hosp{ padding:40px 24px; }
+    .huntext, .teachtext, .hosptext{ position:static; text-align:center; padding-top:0; }
+    .hunt, .tea, .hos{ text-align:center; font-size:14px; }
 
     .thin_wrap{ min-height:60vh; }
     .thin{ padding:40px 24px; }
@@ -1267,13 +1277,10 @@ footer{
 }
 
 @media (max-width: 420px){
-    .mononame,.sixname{ font-size:24vw; }
-    .huntername,.teachername{ font-size:22vw; }
-    .hospitalname{ font-size:20vw; }
-    .thinmanname{ font-size:22vw; }
+    .mononame, .sixname, .huntername, .teachername, .hospitalname, .thinmanname{
+        font-size:clamp(48px, 20vw, 80px);
+    }
     .run_text span{ font-size:26vw; }
     .storyt{ font-size:26px; }
     .monn,.sii,.bao{ font-size:22px; }
 }
-
-
