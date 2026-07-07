@@ -1125,15 +1125,23 @@ footer{
         min-height:auto;
     }
 
-    /* -------- 배경 이미지가 잘리지 않도록 (main_wrap, baner_wrap 제외) -------- */
-    .mono_wrap, .six_wrap, .bane_wrap,
+    /* -------- 배경 이미지: 비율에 맞는 높이로 잡아서 여백 없이 자연스럽게 -------- */
+    .mono_wrap, .six_wrap,
     .hunter_wrap, .hun_wrap, .teacher_wrap, .teach_wrap,
-    .hospital_wrap, .hosp_wrap, .thinman_wrap, .thin_wrap,
+    .hospital_wrap, .hosp_wrap, .thinman_wrap, .thin_wrap{
+        background-size: cover;
+        background-position: center;
+        min-height: calc(100vw * 890 / 1680);   /* 데스크탑 디자인 비율(1680:890) 그대로 축소 → 불필요한 여백/크롭 없음 */
+    }
+    .bane_wrap{
+        background-size: cover;
+        background-position: center;
+        min-height: calc(100vw * 810 / 1680);
+    }
     .footer_wrap{
-        background-size: contain;
-        background-position: top center;
-        background-repeat: no-repeat;
-        min-height: 60vh;
+        background-size: cover;
+        background-position: center;
+        min-height: calc(100vw * 1000 / 1680);
     }
 
     /* -------- 헤더 -------- */
@@ -1194,11 +1202,25 @@ footer{
         width:100%;
     }
 
-    .monoimg img, .siximg img, .hunterimg img,
-    .teacherimg img, .hospitalimg img, .thinmanimg img{
-        width:min(70vw, 300px);   /* FIX: width:auto였던 것을 고정폭으로 바꿔 이미지 원본 비율과 무관하게 동일한 크기로 보이게 함 */
-        height:min(93vw, 400px);
+    /* MONO / SIX : 기존에도 괜찮았던 방식 유지 (세로 기준 자동 폭) */
+    .monoimg img, .siximg img{
+        width:auto;
+        height:56vw;
+        max-height:320px;
         object-fit:cover;
+        object-position: top center;
+        border-radius:4px;
+    }
+
+    /* HUNTER / TEACHER / HOSPITAL / THINMAN : 원본 비율이 좁고 길어 폭이 좁아지며 작아 보이던 문제
+       → 폭을 고정해서 통일하고, 얼굴이 잘리지 않도록 상단 기준으로 크롭 */
+    .hunterimg img, .teacherimg img, .hospitalimg img, .thinmanimg img{
+        width:44vw;
+        max-width:190px;
+        height:56vw;
+        max-height:320px;
+        object-fit:cover;
+        object-position: top center;
         border-radius:4px;
     }
 
@@ -1256,17 +1278,14 @@ footer{
     .sii{ font-size:26px; line-height:1.4; }
 
     /* -------- 배너2 / KEEP RUN -------- */
-    .bane_wrap{ min-height:50vh; }
     .bann{ padding:40px 24px; }
     .bao{ font-size:26px; }
 
     /* -------- 챕터 배너 (FOREST / SCHOOL / HOSPITAL / THE PALE CITY) -------- */
-    .hun_wrap, .teach_wrap, .hosp_wrap{ min-height:50vh; }
     .hun, .teach, .hosp{ padding:40px 24px; }
     .huntext, .teachtext, .hosptext{ position:static; text-align:center; padding-top:0; }
     .hunt, .tea, .hos{ text-align:center; font-size:14px; }
 
-    .thin_wrap{ min-height:60vh; }
     .thin{
         min-height:60vh;         /* FIX: 부모 높이가 0으로 줄면서 절대배치된 RUN 텍스트가 맨 위로 붙던 문제 해결 */
         position:relative;
